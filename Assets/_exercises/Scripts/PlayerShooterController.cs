@@ -16,7 +16,7 @@ public class PlayerShooterController : MonoBehaviour
 
         float minDistance = fireRange;
 
-        GameObject theNearest = null; //GIULIO!!!
+        GameObject theNearest = null;
         //Se non ci sono nemici tutto ok (CHECK) e non occupiamo ulteriore memoria
         foreach (GameObject enemy in enemies)
         {
